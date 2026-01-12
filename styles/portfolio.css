@@ -302,6 +302,15 @@ footer .footer-container {
         flex-direction: column;
     }
 
+    footer .footer-container{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    form{
+        text-align: center;
+    }
+
     .skill-box .skill-card{
         max-width: 100%;
     }
