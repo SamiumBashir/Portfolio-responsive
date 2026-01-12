@@ -293,6 +293,24 @@ footer .footer-container {
     display: none;
 }
 
+@media screen and (max-width:768px) {
+    .container{
+        width: 95%;
+    }
+
+    #skills .skills-container .skill-box{
+        flex-direction: column;
+    }
+
+    .skill-box .skill-card{
+        max-width: 100%;
+    }
+
+    #about, #skills, #resume{
+        padding-top: 60px;
+    }
+}
+
 @media screen and (max-width:576px) {
 
     .container{
