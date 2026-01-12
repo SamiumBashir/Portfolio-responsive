@@ -309,6 +309,25 @@ footer .footer-container {
     #about, #skills, #resume{
         padding-top: 60px;
     }
+
+    #resume .resume-container {
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 60px;
+    }
+
+    .resume-card{
+        margin-right: 0;
+    }
+
+    #about .about-container{
+        padding: 10px;
+    }
+
+    .about-info .info-card p,
+    .about-info .info-card h4 {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:576px) {
